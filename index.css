@@ -1,0 +1,32 @@
+.body {
+    font-family: 'Manrope', system-ui;
+    font-style: normal;
+}
+
+.flex {
+    /* display: flex; */
+}
+
+
+
+.gradient {
+    /* Gradient */
+    background: linear-gradient(45deg, #EA347F 14.66%, #E23080 28.1%, #CC2484 50.02%, #A81189 76.18%, #9A098B 85.37%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 800;
+    margin-top: 0;
+}
+
+h2 {    
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+}
