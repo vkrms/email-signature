@@ -53,7 +53,7 @@ p {
 }
 
 .col.right {
-    padding: 12px 12px 12px 32px;
+    padding: 0 12px 0 32px;
 }
 
 .col.right > div {
@@ -125,4 +125,10 @@ img.name__img {
     display: block;
 }
 
-table.contacts {border-spacing: 0 12px;}
+.contacts {
+    border-spacing: 0 12px;
+}
+
+.contacts td:first-child {
+    vertical-align: baseline;
+}
