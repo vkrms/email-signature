@@ -1,8 +1,6 @@
 .body {
     font-family: 'Manrope', system-ui;
     font-style: normal;
-    /* padding: 16px 24px; */
-    /* border: 1px solid #ddd; */
     color: #929292;
     font-size: 14px;
     white-space: nowrap;
@@ -13,7 +11,7 @@
 }
 
 .gradient {
-    /* Gradient */
+    /* Gradient does not work in emails */
     background: linear-gradient(45deg, #EA347F 14.66%, #E23080 28.1%, #CC2484 50.02%, #A81189 76.18%, #9A098B 85.37%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -58,9 +56,14 @@ p {
     padding: 12px 12px 12px 32px;
 }
 
+.col.right > div {
+    white-space: nowrap;
+    display: table-row;
+}
+
 .social {
-    display: inline-block;
-    margin-right: 4px;
+    display: table-cell;
+    padding: 0 3px;
 }
 
 .social img {
@@ -72,10 +75,10 @@ p {
 
 .contact {
     line-height: 20px;
-    margin-bottom: 12px;
     color: #929292;
     text-decoration: none;
     display: inline-block;
+    margin-bottom: 1px;
 }
 
 .contact.--last {
@@ -88,14 +91,17 @@ p {
     width: 20px;
     aspect-ratio: 1/1;
     vertical-align: top;
+    vertical-align: 1px;
 }
 
 .socials {
-    margin-bottom: 16px;
+    white-space: nowrap;
+    display: table-row;
 }
 
 .inline-block {
     display: inline-block;
+    white-space: nowrap;
 }
 
 h2.name {
@@ -106,19 +112,17 @@ h2.name {
     box-sizing: border-box;
 }
 
-img {
-    /* max-width: 100%; */
-}
-
-
-
 img.portrait {
-    /* width: 140px; */
-    /* height: 140px; */
-    /* display: block; */
     max-width: none;
 }
 
 img.name__img {
     max-width: 100%;
 }
+
+.eventflo {
+    margin-top: 16px;
+    display: block;
+}
+
+table.contacts {border-spacing: 0 12px;}
