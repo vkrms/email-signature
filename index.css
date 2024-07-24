@@ -9,6 +9,7 @@
     font-weight: 300;
     width: fit-content;
     min-width: 550px;
+    display: table-row;
 }
 
 .gradient {
@@ -32,6 +33,7 @@ h2 {
 .col {
     display: inline-block;
     vertical-align: top;
+    display: table-cell;
 }
 
 p {
@@ -42,7 +44,9 @@ p {
 }
 
 .col.left {
-    margin-right: 32px;
+    padding-right: 32px;
+    width: 140px;
+    height: 140px;
 }
 
 .col.center {
@@ -51,7 +55,7 @@ p {
 }
 
 .col.right {
-    padding: 12px 0 12px 32px;
+    padding: 12px 12px 12px 32px;
 }
 
 .social {
@@ -103,6 +107,18 @@ h2.name {
 }
 
 img {
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
+
+
+img.portrait {
+    /* width: 140px; */
+    /* height: 140px; */
+    /* display: block; */
+    max-width: none;
+}
+
+img.name__img {
+    max-width: 100%;
+}
