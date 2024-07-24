@@ -78,7 +78,7 @@ p {
     color: #929292;
     text-decoration: none;
     display: inline-block;
-    margin-bottom: 1px;
+    margin-bottom: 6px;
 }
 
 .contact.--last {
@@ -126,7 +126,7 @@ img.name__img {
 }
 
 .contacts {
-    border-spacing: 0 12px;
+    border-spacing: 0 6px;
 }
 
 .contacts td:first-child {
