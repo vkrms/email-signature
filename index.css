@@ -114,6 +114,9 @@ h2.name {
 
 img.portrait {
     max-width: none;
+    border-radius: 100%;
+    border: 6px solid #fff;
+    box-sizing: border-box;
 }
 
 img.name__img {
