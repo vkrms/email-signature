@@ -61,7 +61,7 @@ createApp({
             },
             {
                 name: 'Discord',
-                link: 'https://discord.com/invite/JRzFxnqBG3',
+                link: 'https://discord.gg/M8pHpTCU',
                 icon: './socials/discord.png'
             },
         ])
