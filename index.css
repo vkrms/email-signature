@@ -105,7 +105,9 @@ p {
 }
 
 h2.name {
-    width: 113px;
+    width: auto;
+    max-width: 145px;
+    
     height: 27px;
     line-height: 27px;
     padding: 5px 0;

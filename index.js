@@ -29,7 +29,18 @@ const team = [
         title: 'Chief Operating Officer',
         email: 'samir@eventflo.io',
         tel: '+61 411 122 929',
+    },
+
+    // calum buchanan
+    {
+        mugshot: './team/calum_buchanan.jpg',
+        nameImg: './calum_buchanan_name.png',
+        nameText: 'Calum Buchanan',
+        title: 'Chief Financial Officer',
+        email: 'cb@eventflo.io',
+        tel: '+61 402 677 540',
     }
+
 ]
 
 createApp({
