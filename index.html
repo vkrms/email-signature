@@ -2,6 +2,8 @@
 <link rel="stylesheet" href="index.css">
 
 <div id="app">
+    <!-- <img src="./design-control.png" class="design-control"> -->
+
     <div class="block" v-for="{ mugshot, nameText, nameImg, title, tel, email } in team" :key="nameText">
         <div class="flex body">
             <div class="col left">
@@ -9,8 +11,8 @@
             </div>
         
             <div class="col center">
-                <h2 class="name" title="Corey Topp">
-                    <img :src="nameImg" class="name__img" :alt="nameText"/>
+                <h2 class="name">
+                    {{nameText}}
                 </h2>
         
                 <p>{{title}}</p>
@@ -58,7 +60,7 @@
                         </td>
                         <td>
                             <a class="contact" href="http://eventflo.io">
-                                <div class="inline-block">eventflo.io</div>
+                                <div class="inline-block">www.eventflo.io</div>
                             </a>
                         </td>
                     </tr>

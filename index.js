@@ -3,7 +3,7 @@ const { createApp, ref } = Vue
 const team = [
     // mark middo
     {
-        mugshot: './team/portrait.png',
+        mugshot: './team/mark.png',
         nameImg: './name.png',
         nameText: 'Mark Middo',
         title: 'Co-founder',
