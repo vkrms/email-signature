@@ -4,7 +4,6 @@ const team = [
     // mark middo
     {
         mugshot: './team/mark.png',
-        nameImg: './name.png',
         nameText: 'Mark Middo',
         title: 'Co-founder',
         email: 'mm@eventflo.io',
@@ -14,7 +13,6 @@ const team = [
     // corey topp
     {
         mugshot: './team/corey_topp_face.jpg',
-        nameImg: './corey_topp_name.png',
         nameText: 'Corey Topp',
         title: 'Co-founder & CMO',
         email: 'ct@eventflo.io',
@@ -24,7 +22,6 @@ const team = [
     // samir rafiq
     {
         mugshot: './team/samir.jpg',
-        nameImg: './samir_rafiq_name.png',
         nameText: 'Samir Rafiq',
         title: 'Chief Operating Officer',
         email: 'samir@eventflo.io',
