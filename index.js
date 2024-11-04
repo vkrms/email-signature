@@ -39,8 +39,16 @@ const team = [
         title: 'Chief Financial Officer',
         email: 'cb@eventflo.io',
         tel: '+61 402 677 540',
-    }
+    },
 
+    // jasmin corro
+    {
+        mugshot: './team/jasmin_corro.jpg',
+        nameText: 'Jasmin Corro',
+        title: 'Executive Assistant',
+        email: 'cb@eventflo.io',
+        tel: '+63 905 520 2694',
+    }
 ]
 
 createApp({
