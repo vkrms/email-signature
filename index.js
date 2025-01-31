@@ -45,6 +45,15 @@ const team = [
         title: 'Executive Assistant',
         email: 'jc@eventflo.io',
         tel: '+63 905 520 2694',
+    },
+
+    // Alex Pirouz
+    {
+        mugshot: './team/alex_pirouz.jpg',   
+        nameText: 'Alex Pirouz',
+        title: 'Head of FloCoin',
+        email: 'ap@eventflo.io',
+        tel: '+61 412 009 902',
     }
 ]
 
