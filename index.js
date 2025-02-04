@@ -44,7 +44,7 @@ const team = [
         nameText: 'Jasmin Corro',
         title: 'Executive Assistant',
         email: 'jc@eventflo.io',
-        tel: '+63 905 520 2694',
+        tel: '+63 905 520 2694',
     },
 
     // Alex Pirouz
@@ -53,7 +53,7 @@ const team = [
         nameText: 'Alex Pirouz',
         title: 'Head of FloCoin',
         email: 'ap@eventflo.io',
-        tel: '+61 412 009 902',
+        tel: '+61 412 009 902',
     }
 ]
 
