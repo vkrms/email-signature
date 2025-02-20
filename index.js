@@ -51,7 +51,7 @@ const team = [
     {
         mugshot: './team/alex_pirouz.jpg',   
         nameText: 'Alex Pirouz',
-        title: 'Head of FloCoin',
+        title: 'Chief Growth Officer',
         email: 'ap@eventflo.io',
         tel: '+61 412 009 902',
     }
