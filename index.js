@@ -1,6 +1,35 @@
 const { createApp, ref } = Vue
 
 const team = [
+    // bri willis
+    {
+        mugshot: './team/bri_willis.jpg',
+        nameText: 'Bri Willis',
+        title: 'Head of Customer Success',
+        email: 'bri@eventflo.io',
+        tel: '+61 403 329 736',
+        location: 'Sydney, Australia',
+    },
+
+    // calum buchanan
+    {
+        mugshot: './team/calum_buchanan.jpg',
+        nameText: 'Calum Buchanan',
+        title: 'Chief Financial Officer',
+        email: 'cb@eventflo.io',
+        tel: '+61 402 677 540',
+        location: 'Melbourne, Australia',
+    },
+
+    {
+        mugshot: './team/alicia_blad.jpg',
+        nameText: 'Alicia Blad',
+        title: 'Head of Event Marketing Innovations',
+        email: 'alicia@eventflo.io',
+        tel: '+61 482 014 392',
+        location: 'Melbourne, Australia',
+    },
+
     // mark middo
     {
         mugshot: './team/mark.png',
@@ -8,44 +37,37 @@ const team = [
         title: 'Co-founder',
         email: 'mm@eventflo.io',
         tel: '+61 421 877 162',
+        location: 'Melbourne, Australia',
     },
 
     // corey topp
     {
-        mugshot: './team/corey_topp_face.jpg',
+        mugshot: './team/corey_topp.jpg',
         nameText: 'Corey Topp',
         title: 'Co-founder & CMO',
         email: 'ct@eventflo.io',
         tel: '+61 438 931 501',
+        location: 'Melbourne, Australia',
     },
 
     // samir rafiq
     {
-        mugshot: './team/samir.jpg',
+        mugshot: './team/samir_rafiq.jpg',
         nameText: 'Samir Rafiq',
         title: 'Chief Operating Officer',
         email: 'samir@eventflo.io',
         tel: '+61 411 122 929',
-    },
-
-    // calum buchanan
-    {
-        mugshot: './team/calum_buchanan.jpg',
-        nameImg: './calum_buchanan_name.png',
-        nameText: 'Calum Buchanan',
-        title: 'Chief Financial Officer',
-        email: 'cb@eventflo.io',
-        tel: '+61 402 677 540',
+        location: 'Melbourne, Australia',
     },
 
     // jasmin corro
-    {
-        mugshot: './team/jasmin_corro.jpg',
-        nameText: 'Jasmin Corro',
-        title: 'Executive Assistant',
-        email: 'jc@eventflo.io',
-        tel: '+63 905 520 2694',
-    },
+    // {
+    //     mugshot: './team/jasmin_corro.jpg',
+    //     nameText: 'Jasmin Corro',
+    //     title: 'Executive Assistant',
+    //     email: 'jc@eventflo.io',
+    //     tel: '+63 905 520 2694',
+    // },
 
     // Alex Pirouz
     {
@@ -54,7 +76,11 @@ const team = [
         title: 'Chief Growth Officer',
         email: 'ap@eventflo.io',
         tel: '+61 412 009 902',
-    }
+        location: 'Melbourne, Australia',
+    },
+
+
+
 ]
 
 createApp({

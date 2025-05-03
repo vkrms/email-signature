@@ -4,7 +4,7 @@
 <div id="app">
     <!-- <img src="./design-control.png" class="design-control"> -->
 
-    <div class="block" v-for="{ mugshot, nameText, nameImg, title, tel, email } in team" :key="nameText">
+    <div class="block" v-for="{ mugshot, nameText, nameImg, title, tel, email, location } in team" :key="nameText">
         <div class="flex body">
             <div class="col left">
                 <img :src="mugshot" :alt="nameText" width="140" height="140" class="portrait">
@@ -72,7 +72,7 @@
         
                         <td>
                             <a href="https://maps.app.goo.gl/s2MC7JeMpEGd91da7" class="contact --last">
-                                <div class="inline-block">Melbourne,<br>Australia</div>
+                                <div class="inline-block">{{location}}</div>
                             </a>
                         </td>
                     </tr>
