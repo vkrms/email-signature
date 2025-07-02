@@ -34,7 +34,7 @@ const team = [
     {
         mugshot: './team/mark.png',
         nameText: 'Mark Middo',
-        title: 'Co-founder',
+        title: 'Chief Technology Officer',
         email: 'mm@eventflo.io',
         tel: '+61 421 877 162',
         location: 'Melbourne, Australia',
@@ -44,7 +44,7 @@ const team = [
     {
         mugshot: './team/corey_topp.jpg',
         nameText: 'Corey Topp',
-        title: 'Co-founder & CMO',
+        title: 'Chief Executive Officer',
         email: 'ct@eventflo.io',
         tel: '+61 438 931 501',
         location: 'Melbourne, Australia',
@@ -73,7 +73,7 @@ const team = [
     {
         mugshot: './team/alex_pirouz.jpg',   
         nameText: 'Alex Pirouz',
-        title: 'Chief Growth Officer',
+        title: 'Chief Operating Officer',
         email: 'ap@eventflo.io',
         tel: '+61 412 009 902',
         location: 'Melbourne, Australia',
